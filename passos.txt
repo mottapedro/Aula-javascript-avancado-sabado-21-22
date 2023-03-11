@@ -1,0 +1,7 @@
+1º - iniciar o projeto -> npm init
+Criar o arquivo de ponto de inicio do projeto -> index.js
+2º - instalar o express -> npm i express 
+
+==== repositório ======
+versionamento do projeto -> Consiste em guardar (Gerenciar) os arquivo do projeto
+npm i é comando para instalar as depencias que estão gerenciadas no packge-lock.json
