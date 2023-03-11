@@ -1,7 +1,9 @@
 1º - iniciar o projeto -> npm init
 Criar o arquivo de ponto de inicio do projeto -> index.js
 2º - instalar o express -> npm i express 
-
+3º - instalar o pacote do node modules -> npm i que estão mapeados no packge-lock
+4º  - instalar o nodemon -> npm i nodemon
+5º - instalar o eje -> npm i ejs
 ==== repositório ======
 versionamento do projeto -> Consiste em guardar (Gerenciar) os arquivo do projeto
 npm i é comando para instalar as depencias que estão gerenciadas no packge-lock.json
