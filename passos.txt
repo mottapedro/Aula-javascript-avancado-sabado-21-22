@@ -4,6 +4,12 @@ Criar o arquivo de ponto de inicio do projeto -> index.js
 3º - instalar o pacote do node modules -> npm i que estão mapeados no packge-lock
 4º  - instalar o nodemon -> npm i nodemon
 5º - instalar o eje -> npm i ejs
+6º - instalar a versão correta do mongoose -> npm install mongoose@6.10.0
+7º - instalar a biblioteca do .env ->  npm install dotenv
+8º - caso o nodemon não seja reconhecido rodar esse comando -> npm install -g nodemon
 ==== repositório ======
 versionamento do projeto -> Consiste em guardar (Gerenciar) os arquivo do projeto
 npm i é comando para instalar as depencias que estão gerenciadas no packge-lock.json
+
+==== reinstalar a pasta node_modules ====
+instalar o pacote do node modules -> npm i que estão mapeados no packge-lock

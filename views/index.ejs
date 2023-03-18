@@ -11,7 +11,33 @@
 
 <body>
 
-    <h1>Aqui é a pagina home</h1>
+    <h1>Tarefas</h1>
+
+    <header>
+        <form action="/create" method="post">
+            <input type="text" name="task" id="task" placeholder="Inserira uma tarefa">
+            <button type="submit" id="addButton">Adicionar</button>
+        </form>
+
+        
+
+    </header>
+
+    <section id="tasks">
+
+        <ul><!--loop para retornar a lista de tarefas-->
+            <% taskList.forEach((task)=> { %>
+                <li>
+                    <%= task.task %> | <%= task.date.toLocaleDateString('pt-br') %>
+                             <a href="/getById/<%= task._id %>/update">Editar</a>
+                </li>
+
+                <% }) %>
+        </ul>
+
+    </section>
+
+
 
     <script src="script.js"></script>
 </body>
